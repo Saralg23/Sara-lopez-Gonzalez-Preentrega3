@@ -1,0 +1,63 @@
+h1,
+h2,
+p {
+    color: $mainFontColor;
+    text-align: center; 
+    font-family: Helvetica; 
+} 
+
+
+
+li,
+label{
+    color: white;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.2em;
+    padding: 10px;
+}
+main {
+    background-color:#202326;
+    margin: 40px;
+    padding: 20px;
+}
+main content{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer{
+    display: flex;
+    background-color: #202326;
+    justify-content: space-around;
+    margin-top: 30px;  
+
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.legales{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+
+}
+
+.RedesSociales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+
+
+}
+.RedesSociales p{
+    color: white;
+}
+.iconos a{
+    margin: 10px;
+}
